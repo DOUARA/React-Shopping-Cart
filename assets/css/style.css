@@ -12,21 +12,21 @@ body {
     background-color: #054a76;
     color: #fff;
     margin: 0;
-    padding: 0 0.75em;
+    padding: 0 12px;
 }
 
 .logo-text h1 {
-    font-size: 1.5em;
+    font-size: 18px;
 
 }
 
 .user-info {
     text-align: right;
-    font-size: 0.875em;
+    font-size: 14px;
 }
 
 .user-info img {
-    margin-right: 0.625em;
+    margin-right: 10px;
 }
 
 .user-info .dropdown-menu {
@@ -44,12 +44,12 @@ body {
 /* product's table style */ 
 .table-header {
     background: #f4f4f4;
-    border-radius: 0.5em;
+    border-radius: 8px;
 }
 
 .table-header .column {
-    font-size: 1.063em;
-    padding-left: 1.25em;
+    font-size: 17px;
+    padding-left: 20px;
 }
 
 .product-row {
@@ -57,28 +57,28 @@ body {
 }
 
 .product-image {
-    padding-left: 1.25em;
+    padding-left: 20px;
 }
 
 .product-image img {
     border: 1px solid #dddddd;
-    padding: 0.125em;
+    padding: 4px;
 }
 
 .product-title {
-    padding-left: 1.25em;
+    padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .product-title h1 {
-    font-size: 1.188em;
+    font-size: 19px;
     color: #083f79;
 }
 
 .product-title h2  {
-    font-size: 1.063em;
+    font-size: 17px;
     margin-top: -45px;
 }
 
@@ -88,9 +88,50 @@ body {
 }
 
 input.quantity {
-    border-radius: 0.5em;
-    font-size: 1.063em;
+    border-radius: 8px;
+    font-size: 17px;
     border: 1px solid #dddddd;
     padding-left:12px;
 }
 
+/* discount setion style */ 
+.checkout { 
+   padding-left: 25px;
+}
+
+.discount h1 { 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+
+
+.submit-form { 
+    text-align: right;
+    padding-right: 25px;
+}
+
+.submit-form .field.is-grouped {
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+
+.total { 
+    font-size: 29px;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.is-link {
+    background-color: #0b507c !important;
+}
+.is-dark {
+    background-color: #3f3f3f !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
