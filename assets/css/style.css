@@ -1,11 +1,42 @@
+body {
+    background-image: url(../../images/bg.jpg);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 .container {
-    background: #eee;
+    background: #ffffff;
 }
-/*
-header {
-    background: black;
+
+.header {
+    background-color: #054a76;
+    color: #fff;
+    margin: 0;
+    padding: 0 0.75em;
 }
-.logo {
-    background:red;
-    text-align:left;
+
+.logo-text h1 {
+    font-size: 1.5em;
+
+}
+
+.user-info {
+    text-align: right;
+    font-size: 0.875em;
+}
+
+.user-info img {
+    margin-right: 0.625em;
+}
+
+.user-info .dropdown-menu {
+    min-width: 13rem;
+}
+
+.user-info .dropdown-trigger {
+    cursor: pointer;
+}
+
+.username {
+    color: #f3db0e;
 }
