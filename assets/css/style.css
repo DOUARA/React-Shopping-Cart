@@ -167,6 +167,7 @@ p {
 }
 
 /* media queries */
+/* mobile Breakpoint*/
 @media screen and (max-width: 768px) {
     body {
         background: #ffffff;
@@ -228,9 +229,17 @@ p {
     .mobile-table-heading {
         display: inline;
     } 
+    
+    .discount {
+        text-align: center;
+    }
 
     .submit-form {
         text-align: center;
+    }
+
+    .discount .field.has-addons {
+        justify-content: center;
     }
 
     .submit-form .field.is-grouped {
@@ -239,10 +248,17 @@ p {
     }
 
     .submit-form .is-dark {
-        margin: 10px;
+        margin-bottom: 10px;
     }
 
     .section {
         padding: 1.5rem 1.5rem 0rem 1.5rem;
+    }
+}
+
+/* tablet breakpoint */
+@media screen and (min-width: 690px) and (max-width: 769px) {
+    .product-image {
+        float: left;
     }
 }
