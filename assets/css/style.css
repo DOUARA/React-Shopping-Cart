@@ -257,7 +257,7 @@ p {
 }
 
 /* tablet breakpoint */
-@media screen and (min-width: 690px) and (max-width: 769px) {
+@media screen and (min-width: 706px) and (max-width: 769px) {
     .product-image {
         float: left;
     }
