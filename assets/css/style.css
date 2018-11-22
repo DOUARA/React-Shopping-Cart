@@ -29,7 +29,7 @@ body {
 }
 
 .logo-text h1 {
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -97,6 +97,7 @@ body {
 }
 
 .center-container {
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
@@ -106,6 +107,9 @@ input.quantity {
     font-size: 17px;
     border: 1px solid #dddddd;
     padding-left:12px;
+}
+input::-webkit-inner-spin-button {
+    opacity:1;
 }
 
 .mobile-table-heading {
@@ -141,6 +145,7 @@ p {
 
 .total { 
     font-size: 29px;
+    font-weight: 600;
     background: #f4f4f4;
     padding: 10px;
 }
