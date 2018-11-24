@@ -118,6 +118,7 @@ input::-webkit-inner-spin-button {
 
 /* discount setion style */ 
 .checkout { 
+   padding-top: 3rem;
    padding-left: 25px;
 }
 
