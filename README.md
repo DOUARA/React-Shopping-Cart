@@ -31,12 +31,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## File Structure 
 - Html index template: **public/index.html**
-- Components reside in **src/componenets** folder. 
+- Components reside in **src/components** folder. 
 - Data in a form of an array can be found here: **src/data/data.js**, you can add more products as much as you want :) 
 - style: the Bulma framework is imported using a CDN in the html template file, and the main style file can be found in **src/style.css**
 
 
-## Learn More
+## Learn More about this workflow 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
