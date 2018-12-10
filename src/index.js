@@ -5,9 +5,7 @@ import "./style.css"
 
 const shoppingCart = document.getElementById("shopping_cart");
     ReactDOM.render(
-        <React.Fragment>
             <ShoppingCart />
-        </React.Fragment>
         , 
         shoppingCart
     );
