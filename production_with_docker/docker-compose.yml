@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  react-shopping-cart:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./build:/home/node/app/build
+    ports:
+      - "1893:5000"
+    command: "serve -s build"
