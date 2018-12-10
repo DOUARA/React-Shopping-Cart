@@ -8,7 +8,7 @@
 - The PSD design has been made by: [thislooksgreat](https://thislooksgreat.net)
 
 ## Live preview 
-browse the application from [here](https://shopping-cart.douara.me/)
+you can test the application from [here](https://shopping-cart.douara.me/)
 
 ## Available Scripts
 
