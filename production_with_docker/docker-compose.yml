@@ -12,4 +12,5 @@ services:
       - ./build:/home/node/app/build
     ports:
       - "1893:5000"
+    restart: "always"
     command: "serve -s build"
