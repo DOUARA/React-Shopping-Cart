@@ -39,9 +39,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - style: the Bulma framework is imported using a CDN in the html template file, and the main style file can be found in **src/style.css**
 
 ## Deployment with Docker
-You can easily deploy the application using docker, simply upload the content in **production_with_docker** to your server then run 
-`docker-compose up -d`
-the server will then build the image and run it in container exposed to the port 1892 on your host, you can can change that port from **docker-compose.yml**  file 
+You can easily deploy the application using docker
+
+- Upload the content of **production_with_docker** folder to your server 
+- Run 
+```
+docker-compose up -d
+```
+- After finishing the process, the application is running on the port 1893 on your host 
+
 ## Learn More about this workflow 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
