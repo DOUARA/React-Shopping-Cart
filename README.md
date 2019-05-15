@@ -1,8 +1,8 @@
 ## Description
 
-- A simple shopping cart built with React and Bulma CSS framework.  
+- A simple shopping cart built with ReactJs and Bulma CSS framework.  
 
-- This project was bootstrapped with 
+- This project is bootstrapped with 
 [Create React App](https://github.com/facebook/create-react-app).
 
 - The PSD design has been made by: [thislooksgreat](https://thislooksgreat.net)
